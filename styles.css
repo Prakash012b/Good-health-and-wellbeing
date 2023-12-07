@@ -8,7 +8,41 @@ body {
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.about {
+	background-color:grey;
+	color:black;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.goodhealth {
+	background-color:grey;
+	color:black;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.diets {
+	background-color:grey;
+	color:black;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.physicalfitness {
+	background-color:grey;
+	color: black;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.mentalhealth {
+	background-color:grey;
+	color: black;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
 .header {
   background-color: #f1f1f1;
   padding: 30px;

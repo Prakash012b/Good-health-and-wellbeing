@@ -2,35 +2,36 @@
 <html lang=en>
 	<head>
 		<link rel="stylesheet" href="styles.css">
-		<title> Diets </title>
-		
+		<title> Contact </title>
+		<script src="js/external.js"></script>
 	</head>
 	
 	<body>
 	
+	<h1>Contact Us</h1>
+  <form onsubmit="event.preventDefault();">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br>
 	
-	<form>
-		
-	</p>
-		<br>
-		<label for="First Name">First Name:</label>
-	<input type="First Name" id="First Name" placeholder="Enter First Name" name="First Name"><br>
-		<label for="Last Name">Last Name:</label>
-	<input type="Last Name" id="Last Name" placeholder="Enter Last Name" name="Last Name"><br>
-		<label for ="Gender"> Gender:</label> 
-	<input name = "Female" type = "checkbox" value = "Female" />
-	<input name = "Female" type = "checkbox" value = "Female" />
-	</label><br>
-		<label for="email">Email:</label>
-	<input type="email" id="email" placeholder="Enter email" name="email"><br>
-	<label for="pwd">Password:</label>
-	<input type="password" id="pwd" placeholder="Enter password" name="pswd"><br>
-	<label>
-    <input type="checkbox" name="remember"> Remember me
-		</label><br>
-	<button type="submit">Submit</button><br>
-	<button type="submit">Register</button>
-	</form>
+		<label for="password">Password:</label>
+	<input type="password" id="password" required><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" rows="4" cols="50" required></textarea><br>
+	
+     <label for="subscribe">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="subscribe"><br>
+	
+    <input type="submit" value="Submit" onclick ="submitForm()">
+  </form>
+  
+  <div id="thankYouMessage" style="display: none;">
+    <p>Thank you for contacting us! We will get back to you shortly.</p>
+  </div>
+  
 	<a href="index.html"><b>Homepage</b></a><br>
 	<a href="about.html">About</a><br>
 	<a href="diets.html">Diets</a><br>
